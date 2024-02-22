@@ -32,7 +32,7 @@ import           Control.Monad                    (MonadPlus, forM)
 import           Control.Monad.Exception          (MonadException)
 import           Control.Monad.IO.Class           (MonadIO)
 import           Control.Monad.Trans.Class        (lift)
-import           Control.Monad.Trans.List         (ListT (..))
+import           Graphics.GPipe.Internal.ListT    (ListT (..))
 import           Control.Monad.Trans.Reader       (ReaderT (..), ask)
 import           Control.Monad.Trans.State        (State, get, modify, put,
                                                    runState)
