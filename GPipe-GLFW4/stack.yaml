@@ -1,5 +1,7 @@
 packages:
 - '.'
-resolver: lts-15.2
+resolver:
+  url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/22/11.yaml
 extra-deps:
-- GPipe-2.2.5
+- ../GPipe-Core
+- ../glsl
